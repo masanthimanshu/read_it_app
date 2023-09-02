@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "485921219808",
+    "project_id": "read-it-f5a4e",
+    "storage_bucket": "read-it-f5a4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485921219808:android:2c0983a39ae0e62b4f1c85",
+        "android_client_info": {
+          "package_name": "com.example.read_it"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485921219808-u3pgucvt57cgkmkg9p099ah438pkjqrg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT66utPFzSR2Ah9r2qqjVxrjtJiNsxS70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485921219808-np9l9almshsgpso711e1i1lhjvngslfd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
