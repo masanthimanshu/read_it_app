@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:read_it/components/home/book_card.dart';
 import 'package:read_it/screens/content/content_screen.dart';
 import 'package:read_it/screens/notification/notification_screen.dart';
-import 'package:read_it/screens/search/search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -49,17 +48,6 @@ class _HomeScreenState extends State<HomeScreen> {
               );
             },
             icon: const Icon(Icons.notifications),
-          ),
-          IconButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => const SearchScreen(),
-                ),
-              );
-            },
-            icon: const Icon(Icons.search),
           ),
         ],
       ),
